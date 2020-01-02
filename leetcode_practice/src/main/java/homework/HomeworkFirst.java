@@ -4,7 +4,7 @@ package homework;
  * @author g
  * @Date 2020/1/1 14:56
  */
-class homework_2020_01_01 {
+class HomeworkFirst {
 
         public int removeDuplicates(int[] nums) {
 
