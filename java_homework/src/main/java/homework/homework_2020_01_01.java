@@ -1,8 +1,8 @@
 package homework;
 
 /**
- * @author shzhou
- * @Date 2020/1/2 09:56
+ * @author g
+ * @Date 2020/1/1 14:56
  */
 class homework_2020_01_01 {
 
