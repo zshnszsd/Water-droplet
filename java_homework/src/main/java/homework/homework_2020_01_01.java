@@ -1,0 +1,32 @@
+package homework;
+
+/**
+ * @author shzhou
+ * @Date 2020/1/2 09:56
+ */
+class homework_2020_01_01 {
+
+        public int removeDuplicates(int[] nums) {
+
+            if(nums.length < 2){
+                return nums.length;
+            }
+
+            int count = 0;
+            int arr = nums[0];
+
+            for(int i = 1; i < nums.length;++i){
+                if(arr == nums[i]){
+                    continue;
+                }else{
+                    count += 1;
+                    arr = nums[i];
+                    nums[count] = arr;
+                }
+            }
+            return count + 1;
+
+        }
+
+    }
+
